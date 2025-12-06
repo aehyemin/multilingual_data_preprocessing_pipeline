@@ -3,6 +3,20 @@ import pandas as pd
 import time
 import re
 
+
+def has_korean_transcript(page) -> bool:
+    choose_lang = page.get_by_role("combobox")
+    option = choose_lang.locator("option").all()
+    
+    for i in option:
+        val = i.get_attribute("value")
+        if val == "ko":
+            return True
+    return False
+    
+    
+
+
 def extract_script(page, lang_label:str): #자막 추출
     print(f"{lang_label} 자막 추출")
     
@@ -32,26 +46,27 @@ def scrap_ted_script(url):
         browser = p.chromium.launch(headless=False, slow_mo=300)
         context = browser.new_context()
         page = context.new_page()
-
-        page.goto(f"{url}/transcript?language=ko")
-
+    
+        page.goto(f"{url}/transcript?language=en")
+    
         try:
             btn = page.get_by_role("button", name="이 대화 상자 닫기")
             btn.click()
         except:
             pass
+
+        if not has_korean_transcript(page):
+            print("한국어 자막없음")
+            return None
         
+        en_script = extract_script(page, "EN")
         
+        page.goto(f"{url}/transcript?language=ko")
+        page.get_by_role("combobox").select_option("ko")
         ko_script = extract_script(page, "KO")
         
                 
-        print("EN 페이지 접속")
-        page.goto(f"{url}/transcript?language=en")
-        time.sleep(1)
-        page.get_by_role("combobox").select_option("en")
 
-
-        en_script = extract_script(page, "EN")
         min_len = min(len(ko_script), len(en_script))
         
         print(f"짧은쪽{min_len}")
@@ -73,6 +88,7 @@ def scrap_ted_script(url):
 
 if __name__ == "__main__":
     url = "https://www.ted.com/talks/jennifer_doudna_how_crispr_lets_us_edit_our_dna"
+    
     data_list = scrap_ted_script(url)
 
     if data_list:
@@ -82,3 +98,5 @@ if __name__ == "__main__":
         print(df.head())
     else:
         print("\n 실패.")
+        
+    
