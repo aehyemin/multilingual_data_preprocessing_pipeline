@@ -4,6 +4,30 @@ import time
 import re
 
 
+def get_popular_talk_url(limit=30):
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        context = browser.new_context()
+        page = context.new_page()   
+        
+        page.goto('https://www.ted.com/talks?sort=popular')
+        page.wait_for_load_state("networkidle")
+        card = page.locator("a[href^='/talks/']")
+        cnt = card.count()
+        urls = []
+        
+        for i in range(cnt):
+            href = card.nth(i).get_attribute("href")
+            if href:
+                urls.append("https://www.ted.com" + href)
+            if len(urls) >= limit:
+                break
+         
+    return urls
+
+
+
+
 def has_korean_transcript(page) -> bool:
     choose_lang = page.get_by_role("combobox")
     option = choose_lang.locator("option").all()
@@ -88,7 +112,10 @@ def scrap_ted_script(url):
 
 if __name__ == "__main__":
     url = "https://www.ted.com/talks/jennifer_doudna_how_crispr_lets_us_edit_our_dna"
-    
+    urls = get_popular_talk_url(limit=30)
+
+    for u in urls:
+        print(u)
     data_list = scrap_ted_script(url)
 
     if data_list:
@@ -99,4 +126,5 @@ if __name__ == "__main__":
     else:
         print("\n 실패.")
         
+    
     
