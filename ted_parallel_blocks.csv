@@ -1,0 +1,280 @@
+﻿idx,ko,en
+0,"몇 년 전,","A few years ago,"
+1,"저는, 제 동료인 임마뉴엘 샤펜티에와 함께","with my colleague, Emmanuelle Charpentier,"
+2,유전체를 조작하는 새로운 기술을 발명했습니다.,I invented a new technology for editing genomes.
+3,이름하여 크리스퍼-캐스9 (CRISPR-Cas9) 이라고 하죠.,It's called CRISPR-Cas9.
+4,이 크리스퍼 기술을 통해 과학자들은 세포의 DNA를,The CRISPR technology allows scientists to make changes
+5,조작함으로써,to the DNA in cells
+6,유전병을 치료할 수 있습니다.,that could allow us to cure genetic disease.
+7,"다들 궁금하실 텐데,",You might be interested to know
+8,원래 이 크리스퍼 기술은 세균이 바이러스 감염에 어떻게 대항하는지,that the CRISPR technology came about through a basic research project
+9,밝혀내기 위한 기초 연구를 하는 과정에서 개발되었습니다.,that was aimed at discovering how bacteria fight viral infections.
+10,세균은 그 주위의 바이러스에 맞서야만 합니다.,"Bacteria have to deal with viruses in their environment,"
+11,바이러스성 감염은 마치 시한폭탄과 같다고 생각하면 됩니다.,and we can think about a viral infection like a ticking time bomb --
+12,폭탄이 폭발하기 전에 제거하기 위해서,a bacterium has only a few minutes to defuse the bomb
+13,세균에게 주어진 시간은 단지 몇 분에 불과하죠.,before it gets destroyed.
+14,"그래서 많은 세균들은 세포 안에 크리스퍼라는 적응면역체계를 가지며,","So, many bacteria have in their cells an adaptive immune system called CRISPR,"
+15,이것은 바이러스의 DNA를 추적하여 파괴시킵니다.,that allows them to detect viral DNA and destroy it.
+16,이 크리스퍼 체계의 일부분이 바로 캐스9 이라 불리는 단백질입니다.,"Part of the CRISPR system is a protein called Cas9,"
+17,"이것은 특별한 방법으로 바이러스의 DNA를 찾아 내서 잘라낼 수 있고,","that's able to seek out, cut and eventually degrade viral DNA"
+18,마침내 파괴시킬 수 있지요.,in a specific way.
+19,캐스9 이라는 단백질의 활동을,And it was through our research
+20,"이해하기 위한 연구를 하던 중에,","to understand the activity of this protein, Cas9,"
+21,그 기능을 유전공학기술에,that we realized that we could harness its function
+22,활용할 수 있다는 것을 깨달았습니다.,as a genetic engineering technology --
+23,과학자들이 세포 내 DNA의 특정 부분을 삭제하거나 삽입하는 방법인데,a way for scientists to delete or insert specific bits of DNA into cells
+24,엄청난 정밀함이 필요하죠.,with incredible precision --
+25,이것의 활용은,that would offer opportunities
+26,과거에는 불가능했던 것들을 할 수 있는 기회를 제공합니다.,to do things that really haven't been possible in the past.
+27,이 크리스퍼 기술은 이미,The CRISPR technology has already been used
+28,"쥐나 원숭이, 혹은 다른 유기체의 세포 DNA를 변형하는 데에","to change the DNA in the cells of mice and monkeys,"
+29,사용되었습니다.,other organisms as well.
+30,"최근, 중국의 과학자들은",Chinese scientists showed recently
+31,심지어 이 크리스퍼 기술을,that they could even use the CRISPR technology
+32,인간 배아의 유전자 변형에도 사용했다고 발표했죠.,to change genes in human embryos.
+33,그리고 필라델피아의 과학자들은 크리스퍼 기술을 이용해서,And scientists in Philadelphia showed they could use CRISPR
+34,에이즈에 감염된 인간 세포로부터 일체화된 에이즈 바이러스의 DNA를,to remove the DNA of an integrated HIV virus
+35,제거할 수 있다고 발표했습니다.,from infected human cells.
+36,이러한 유전자 변형의 기회는,The opportunity to do this kind of genome editing
+37,우리가 고려해야만 하는 다양한 윤리적인 문제들을 야기합니다.,"also raises various ethical issues that we have to consider,"
+38,왜냐하면 이 기술은 성체 세포들 뿐만 아니라,"because this technology can be employed not only in adult cells,"
+39,유기체의 배아들에게도 적용될 수 있기 때문이지요.,"but also in the embryos of organisms,"
+40,물론 인간을 포함해서 말입니다.,including our own species.
+41,그래서 저는 동료들과 함께,"And so, together with my colleagues,"
+42,제가 공동 개발한 이 기술에 관한 국제적 논의를 요구했습니다.,"I've called for a global conversation about the technology that I co-invented,"
+43,이 같은 기술이 가져올 수 있는 모든 윤리적이고 사회적인 영향을,so that we can consider all of the ethical and societal implications
+44,고려하기 위해서 말이죠.,of a technology like this.
+45,"제가 지금 여러분께 말하고 싶은 것은 크리스퍼 기술이 무엇인지,","What I want to do now is tell you what the CRISPR technology is,"
+46,"무엇을 할 수 있는지,","what it can do,"
+47,"기술 수준이 어디까지 왔는지,",where we are today
+48,그리고 이 기술을 적용함에 있어서,and why I think we need to take a prudent path forward
+49,왜 그토록 신중해야 하는지 입니다.,in the way that we employ this technology.
+50,바이러스가 한 세포를 감염시킬 때는 자신의 DNA를 세포에 주입합니다.,"When viruses infect a cell, they inject their DNA."
+51,그리고 세균 안에서는,"And in a bacterium,"
+52,크리스퍼 시스템이 그 DNA를 바이러스로부터 뽑아내서,"the CRISPR system allows that DNA to be plucked out of the virus,"
+53,염색체 일부분에 넣어 둡니다.,and inserted in little bits into the chromosome --
+54,세균 자신의 DNA에 넣어 두죠.,the DNA of the bacterium.
+55,이 바이러스 DNA의 모든 정보가 저장되는 영역이 '크리스퍼'입니다.,And these integrated bits of viral DNA get inserted at a site called CRISPR.
+56,크리스퍼는 '주기적 간격으로 분포하는 짧은 회문구조 반복서열'의 약자입니다.,CRISPR stands for clustered regularly interspaced short palindromic repeats.
+57,(웃음),(Laughter)
+58,말하기 엄청 길죠. 왜 크리스퍼라는 약자를 사용하는지 아시겠죠?,A big mouthful -- you can see why we use the acronym CRISPR.
+59,이것은 세포들로 하여금 감염된 적 있는 바이러스들을,"It's a mechanism that allows cells to record, over time,"
+60,시간이 지나도 기억하도록 하는 기제입니다.,the viruses they have been exposed to.
+61,"더 중요한 것은, 그 DNA 정보가 세포들의 자손에게 전해진다는 것이죠.","And importantly, those bits of DNA are passed on to the cells' progeny,"
+62,그래서 단지 한 세대의 세포들 뿐만 아니라,"so cells are protected from viruses not only in one generation,"
+63,다음 세대의 세포들 또한 바이러스로부터 보호되는 것입니다.,but over many generations of cells.
+64,이는 세포들이 감염 기록을 보존하도록 합니다.,"This allows the cells to keep a record of infection,"
+65,저의 동료인 블레이크 위든헤프가 즐겨 말하는 표현대로라면,"and as my colleague, Blake Wiedenheft, likes to say,"
+66,이 크리스퍼의 존재는 세포들에는 효과적인 유전적 예방접종 카드 입니다.,the CRISPR locus is effectively a genetic vaccination card in cells.
+67,"일단 이러한 DNA 조각들이 세균의 염색체로 삽입되면,","Once those bits of DNA have been inserted into the bacterial chromosome,"
+68,세포는 RNA라는 분자 복제본을 만들어냅니다.,"the cell then makes a little copy of a molecule called RNA,"
+69,"위 그림에서 주황색 부분인데,","which is orange in this picture,"
+70,이것은 바이러스 DNA가 완전히 복제된 것입니다.,that is an exact replicate of the viral DNA.
+71,"RNA는 DNA와 화학적 형제관계이고,","RNA is a chemical cousin of DNA,"
+72,짝을 이루는 염기서열을 가진 DNA 분자와,and it allows interaction with DNA molecules
+73,상호작용을 합니다.,that have a matching sequence.
+74,그래서 크리스퍼 영역에서 나온 이러한 작은 RNA 조각들은,So those little bits of RNA from the CRISPR locus
+75,캐스9 이라 불리는 단백질과 결합하여 연결됩니다.,"associate -- they bind -- to protein called Cas9,"
+76,그림에서 흰 부분이 캐스9이지요.,"which is white in the picture,"
+77,그리고 세포 내에서 감시병과 같은 기능을 하는 복합체를 형성합니다.,and form a complex that functions like a sentinel in the cell.
+78,그것은 세포 내의 모든 DNA를 검색해서,"It searches through all of the DNA in the cell,"
+79,결합된 RNA들의 염기서열과 짝이 되는 부분을 찾습니다.,to find sites that match the sequences in the bound RNAs.
+80,"그 위치를 찾게 되면,",And when those sites are found --
+81,"여기서 보는 바와 같이, 파란색이 DNA 분자인데요.","as you can see here, the blue molecule is DNA --"
+82,이 복합체는 DNA와 연결되고,this complex associates with that DNA
+83,캐스9이 칼처럼 바이러스성 DNA를 잘라낼 수 있게 합니다.,and allows the Cas9 cleaver to cut up the viral DNA.
+84,매우 정밀하게 잘라내죠.,It makes a very precise break.
+85,그래서 우리는 감시병 역할의 캐스9-RNA 복합체를,So we can think of the Cas9 RNA sentinel complex
+86,DNA를 자를 수 있는 가위로 비유합니다.,like a pair of scissors that can cut DNA --
+87,그것은 DNA 나선에서 양가닥 절단을 만들어냅니다.,it makes a double-stranded break in the DNA helix.
+88,"더 중요한 것은, 이 복합체는 프로그래밍화 할 수 있습니다.","And importantly, this complex is programmable,"
+89,"즉, 특정한 DNA 서열을 인지하도록 프로그램화 해서","so it can be programmed to recognize particular DNA sequences,"
+90,그 부분의 DNA를 절단해 낼 수 있습니다.,and make a break in the DNA at that site.
+91,"제가 지금 말씀드렸듯이,","As I'm going to tell you now,"
+92,우리는 이러한 과정을 유전공학에 이용할 수 있다는 사실을 알았습니다.,"we recognized that that activity could be harnessed for genome engineering,"
+93,세포로 하여금 DNA가 절단된 부분을,to allow cells to make a very precise change to the DNA
+94,매우 정교하게 변형시킬 수 있도록 하는 것이죠.,at the site where this break was introduced.
+95,"이를 비유하자면,",That's sort of analogous
+96,문서의 오타를 고칠 수 있는,to the way that we use a word-processing program
+97,워드프로세서 프로그램을 사용하는 것과 유사합니다.,to fix a typo in a document.
+98,우리가 이 크리스퍼 체계를 유전공학에 활용하기를 꿈꾸는 이유는,The reason we envisioned using the CRISPR system for genome engineering
+99,세포들이 망가진 DNA를 추적하고,is because cells have the ability to detect broken DNA
+100,고칠 수 있는 능력이 있기 때문이지요.,and repair it.
+101,그래서 동식물의 세포가 DNA안의 양가닥 절단을 찾아내면,"So when a plant or an animal cell detects a double-stranded break in its DNA,"
+102,그것을 고칠 수 있죠.,"it can fix that break,"
+103,염기서열의 아주 작은 변화로 망가진 DNA의 끝을,either by pasting together the ends of the broken DNA
+104,"같이 연결해 붙이거나,","with a little, tiny change in the sequence of that position,"
+105,또는 잘려나간 자리에 새로운 DNA 조각을 통합시켜 고칠 수 있습니다.,or it can repair the break by integrating a new piece of DNA at the site of the cut.
+106,만약 우리가 DNA안 양가닥 절단의,So if we have a way to introduce double-stranded breaks into DNA
+107,"정확한 위치를 알 수 있다면,","at precise places,"
+108,세포로 하여금 세포분열이나 새로운 유전 정보의 결합에 의해,"we can trigger cells to repair those breaks,"
+109,이러한 절단 부분을 고치도록 할 수 있습니다.,by either the disruption or incorporation of new genetic information.
+110,"따라서, 크리스퍼 기술을 프로그램화 할 수 있다면",So if we were able to program the CRISPR technology
+111,"예를 들어, 낭포성 섬유증을 유발하는",to make a break in DNA
+112,돌연변이 자리나 그 근처의 DNA를 절단할 수 있다면,"at the position at or near a mutation causing cystic fibrosis, for example,"
+113,우리는 세포들로 하여금 그 돌연변이를 고치도록 할 수 있습니다.,we could trigger cells to repair that mutation.
+114,"유전공학은 사실 새로운 것이 아니라, 1970년대 부터 발전되어 왔습니다.","Genome engineering is actually not new, it's been in development since the 1970s."
+115,"DNA의 염기서열을 결정하거나,","We've had technologies for sequencing DNA,"
+116,"DNA를 복제하거나,","for copying DNA,"
+117,심지어 DNA를 조작하는 기술에까지 이르렀습니다.,and even for manipulating DNA.
+118,"그리고 이런 기술들은 매우 촉망받았지만,","And these technologies were very promising,"
+119,"문제는 기술들이 효과적이지 않거나,","but the problem was that they were either inefficient,"
+120,사용하기 어렵다는 데에 있었습니다.,or they were difficult enough to use
+121,"대부분의 과학자들이 자신의 실험실에서 이 기술을 제대로 적용하지 못했고,","that most scientists had not adopted them for use in their own laboratories,"
+122,또는 많은 임상적용에도 분명한 어려움이 있었죠.,or certainly for many clinical applications.
+123,그래서 크리스퍼와 같은 기술의 적용 가능성이 주목 받는 이유는,"So, the opportunity to take a technology like CRISPR and utilize it has appeal,"
+124,"바로, 이 기술이 상대적으로 간단하기 때문입니다.",because of its relative simplicity.
+125,예전의 유전공학 기술들은,We can think of older genome engineering technologies
+126,마치 매번 새로운 소프트웨어를 구동시킬 때마다,as similar to having to rewire your computer
+127,컴퓨터의 전선을 바꾸는 것과 마찬가지였죠.,"each time you want to run a new piece of software,"
+128,"반면, 크리스퍼 기술은 유전체를 위한 소프트웨어와 같아서,","whereas the CRISPR technology is like software for the genome,"
+129,작은 RNA 조각들을 이용해서 쉽게 프로그램할 수 있습니다.,"we can program it easily, using these little bits of RNA."
+130,"따라서, 일단 DNA안에 양가닥 절단이 만들어지면,","So once a double-stranded break is made in DNA,"
+131,"DNA 복구를 유도할 수 있고,","we can induce repair,"
+132,이로써 잠재적으로 놀라운 것들을 해낼 수 있습니다.,"and thereby potentially achieve astounding things,"
+133,겸상 적혈구 빈혈이나 헌팅턴 증후군을 유발하는,like being able to correct mutations that cause sickle cell anemia
+134,돌연변이를 바로잡을 수 있죠.,or cause Huntington's Disease.
+135,저는 사실 이 크리스퍼 기술을 가장 먼저 적용할 수 있는 대상은,I actually think that the first applications of the CRISPR technology
+136,혈액이라고 생각합니다.,"are going to happen in the blood,"
+137,딱딱한 조직에 비해 혈액은 이러한 기술을 적용하기가,"where it's relatively easier to deliver this tool into cells,"
+138,비교적 쉽습니다.,compared to solid tissues.
+139,지금도 인간 질병에 관한 많은 연구들이,"Right now, a lot of the work that's going on"
+140,쥐와 같은 동물들에 적용되고 있습니다.,"applies to animal models of human disease, such as mice."
+141,"이 기술로 매우 정교한 변형을 만들어 낼 수 있고,",The technology is being used to make very precise changes
+142,"이로써 세포 조직, 혹은 한 유기체 전체에 영향을 미치는",that allow us to study the way that these changes in the cell's DNA
+143,세포 DNA의 변형을 연구할 수 있습니다.,"affect either a tissue or, in this case, an entire organism."
+144,이것은 그 예인데요.,"Now in this example,"
+145,쥐가 검은 털을 갖도록 하는 특정 유전자의,the CRISPR technology was used to disrupt a gene
+146,DNA 내에 아주 작은 변화를 만들어냄으로써,by making a tiny change in the DNA
+147,유전자를 교란시키는 데에 크리스퍼 기술이 사용되었습니다.,in a gene that is responsible for the black coat color of these mice.
+148,"한 배에 태어난 색을 갖는 다른 새끼들과 달리, 이 하얀 쥐들은",Imagine that these white mice differ from their pigmented litter-mates
+149,전체 유전체 중 단 하나의 유전자가 변형되었다는 점을 생각해 보세요.,"by just a tiny change at one gene in the entire genome,"
+150,그 점 말고는 완전히 정상이지요.,and they're otherwise completely normal.
+151,"그리고, 이같은 동물들의 DNA 염기서열을 확인해 보면","And when we sequence the DNA from these animals,"
+152,DNA 안에서의 변화가,we find that the change in the DNA
+153,크리스퍼 기술을 사용해 유도한 곳에서,"has occurred at exactly the place where we induced it,"
+154,정확히 일어났음을 알아냈습니다.,using the CRISPR technology.
+155,추가적인 실험들이 다른 동물들에게도 시행되고 있습니다.,Additional experiments are going on in other animals
+156,인간 질병을 위한 모델을 만드는데 유용하지요.,"that are useful for creating models for human disease,"
+157,원숭이를 대상으로 하는 실험들이죠.,such as monkeys.
+158,그리고 이러한 체계를 이용하여,And here we find that we can use these systems
+159,특정한 조직에 이 기술을 적용하는 방법을 찾고 있습니다.,"to test the application of this technology in particular tissues,"
+160,"예를들어, 크리스퍼 도구를 세포 속으로 전달하는 방법을 찾고 있죠.","for example, figuring out how to deliver the CRISPR tool into cells."
+161,"우리는 또한, DNA가 잘려져 나간 후에",We also want to understand better
+162,복구 과정을 조절하는 방법과,"how to control the way that DNA is repaired after it's cut,"
+163,표적을 벗어나거나 의도되지 않은 영향을,"and also to figure out how to control and limit any kind of off-target,"
+164,통제하고 제한하는 방법을 알아내고자 합니다.,or unintended effects of using the technology.
+165,저는 이 기술을 틀림없이 임상에도 적용할 수 있을 것으로 봅니다.,"I think that we will see clinical application of this technology,"
+166,성인들에게요.,"certainly in adults,"
+167,10년 안에 말입니다.,within the next 10 years.
+168,저는 임상 실험과,I think that it's likely that we will see clinical trials
+169,심지어 공인된 치료법들을 곧 볼 수 있을 것이라 생각합니다.,"and possibly even approved therapies within that time,"
+170,생각만해도 매우 흥미로운 일이죠.,which is a very exciting thing to think about.
+171,"그리고, 이 기술에 열광하여","And because of the excitement around this technology,"
+172,크리스퍼 기술을 상업화해 온,there's a lot of interest in start-up companies
+173,"신생회사에서 많은 흥미를 가지고 있고,","that have been founded to commercialize the CRISPR technology,"
+174,많은 벤처투자가들이 이 회사들에 투자를 해오고 있지요.,and lots of venture capitalists
+175,그러나 우리는 크리스퍼 기술이,that have been investing in these companies.
+176,'개량'을 위해서 사용될 수도 있다는 점을 고려해야만 합니다.,But we have to also consider
+177,인간을 설계하려 한다고 상상해보세요.,that the CRISPR technology can be used for things like enhancement.
+178,"특성을 개량할 목적으로 뼈를 더 강하게 하거나,",Imagine that we could try to engineer humans
+179,"심혈관 질환에 대한 민감도를 줄이고,","that have enhanced properties, such as stronger bones,"
+180,"심지어, 개인의 특성을",or less susceptibility to cardiovascular disease
+181,우리가 바라는 쪽으로 개량하는 겁니다.,or even to have properties
+182,"다른 눈 색깔을 갖거나, 키가 더 커지도록 하는 것이죠.","that we would consider maybe to be desirable,"
+183,만약 그렇다면 인간을 디자인 하는 것이 되겠지요.,"like a different eye color or to be taller, things like that."
+184,"현재, 어떤 종류의 유전자가","""Designer humans,"" if you will."
+185,이 같은 특성을 가져다 주는지 이해하기 위한 유전적 정보는,"Right now, the genetic information"
+186,거의 알려져 있지 않습니다.,to understand what types of genes would give rise to these traits
+187,"하지만, 중요한 것은",is mostly not known.
+188,그 지식을 얻기만 한다면,But it's important to know
+189,크리스퍼 기술이 우리에게 이 같은 변화를 가져올 거라는 점이죠.,"that the CRISPR technology gives us a tool to make such changes,"
+190,"이는 우리가 신중히 고려해야만 하는 많은 윤리적인 문제를 야기하고,",once that knowledge becomes available.
+191,그렇기 때문에 저와 제 동료들은 인간 배아에 대한 크리스퍼 기술의,"This raises a number of ethical questions that we have to carefully consider,"
+192,어떠한 임상적인 적용에 대해서도 국제적인 중단을 요구했던 것입니다.,and this is why I and my colleagues have called for a global pause
+193,그렇게 함으로써 발생되는,"in any clinical application of the CRISPR technology in human embryos,"
+194,모든 다양한 결과를 진지하게 고려할 시간을 갖기 위해서 말입니다.,to give us time
+195,"사실, 이같은 중단을 위한 중요한 선례가",to really consider all of the various implications of doing so.
+196,1970년대 부터 있습니다.,"And actually, there is an important precedent for such a pause"
+197,과학자들이 모여,"from the 1970s,"
+198,기술의 안정성이 신중하고 타당하게 검토되기 전까지는,when scientists got together
+199,분자 복제 사용의 일시적인 정지를 요청했을 때였죠.,"to call for a moratorium on the use of molecular cloning,"
+200,"따라서 유전자 설계로 태어난 인간이 아직은 존재하지는 않지만,",until the safety of that technology could be tested carefully and validated.
+201,더 이상은 공상과학소설도 아닌 것이죠.,"So, genome-engineered humans are not with us yet,"
+202,동식물의 유전자 조작은 지금도 행해지고 있습니다.,but this is no longer science fiction.
+203,이러한 사실로 우리 앞에는 막중한 책임감이 놓여져 있습니다.,Genome-engineered animals and plants are happening right now.
+204,그것은 과학의 획기적 진보에 따른 계획된 영향뿐만 아니라,"And this puts in front of all of us a huge responsibility,"
+205,의도하지 않은 결과들도 신중하게 고려해야 한다는 것입니다.,to consider carefully both the unintended consequences
+206,감사합니다.,as well as the intended impacts of a scientific breakthrough.
+207,(박수),Thank you.
+208,(박수 끝),(Applause)
+209,"BG: 제니퍼 박사님, 당신 말대로 이것은 굉장한 결과들을",(Applause ends)
+210,가져올 수 있는 기술이네요.,"Bruno Giussani: Jennifer, this is a technology with huge consequences,"
+211,"이 기술에 대한 중단, 유예 또는 격리를 요구하는 당신의 입장은",as you pointed out.
+212,굉장한 책임감을 갖고 있는 것 같습니다.,Your attitude about asking for a pause or a moratorium or a quarantine
+213,"물론, 이 기술의 치료적 효과들도 있겠지만,",is incredibly responsible.
+214,"비치료적 결과들도 있고,","There are, of course, the therapeutic results of this,"
+215,또 그 비치료적 결과들이 관심을 끌고 있는 것 처럼 보입니다.,but then there are the un-therapeutic ones
+216,특히 미디어에서 말이죠.,"and they seem to be the ones gaining traction,"
+217,"이코노미스트지의 가장 최근 이슈가 ""인간 수정"" 입니다.",particularly in the media.
+218,"어떠한 치료에 대한 것이 아니라, 온통 유전자 강화에 대한 것이죠.","This is one of the latest issues of The Economist -- ""Editing humanity."""
+219,지난 3월에 박사님께서,"It's all about genetic enhancement, it's not about therapeutics."
+220,이 기술에 대해 생각할 시간을 갖기 위해,What kind of reactions did you get back in March
+221,기술 사용을 잠시 중단해야 한다고,"from your colleagues in the science world,"
+222,"제안했을 때, 학계 동료들은 어떠한 반응을 보였나요?",when you asked or suggested
+223,"JD: 제 생각에, 제 동료들은 사실",that we should actually pause this for a moment and think about it?
+224,이것을 공론화할 기회를 갖게 되어 기뻐했어요.,"Jennifer Doudna: My colleagues were actually, I think, delighted"
+225,"흥미로운 것은, 제가 사람들과 얘기하고",to have the opportunity to discuss this openly.
+226,제 동료나 그 외 사람들에게 이 문제에 대해 말할 때마다,"It's interesting that as I talk to people,"
+227,각기 다른 다양한 의견이 있었습니다.,"my scientific colleagues as well as others,"
+228,확실히 이 주제는 신중하게 고려하고 논의되어야 하는 것임은 분명합니다.,there's a wide variety of viewpoints about this.
+229,BG: 박사님과 박사님 동료들 요청으로,So clearly it's a topic that needs careful consideration and discussion.
+230,국립과학원과 타 기관들이 참가하는,BG: There's a big meeting happening in December
+231,"큰 회의가 12월에 있는데요,","that you and your colleagues are calling,"
+232,그 회의에서 사실상 어떤 결론이 나기를 바라시는지요?,"together with the National Academy of Sciences and others,"
+233,"JD: 음 글쎄요, 저는 이 기술을 책임감있게","what do you hope will come out of the meeting, practically?"
+234,사용하는 방법에 대해 고민하는,"JD: Well, I hope that we can air the views"
+235,많은 개인이나 이해 관계자들의 관점을 환기시킬 수 있었으면 합니다.,of many different individuals and stakeholders
+236,"합의된 하나의 관점을 도출하기는 어렵겠지만,",who want to think about how to use this technology responsibly.
+237,우리가 앞으로 나아감에 따라,"It may not be possible to come up with a consensus point of view,"
+238,어떤 문제가 발생할 것인지 만큼은 적어도 이해해야 한다고 생각합니다.,but I think we should at least understand
+239,BG: 박사님 동료들 중에,what all the issues are as we go forward.
+240,하버드의 조지 처치와 같은 사람은 일례로 이런 말을 했습니다.,"BG: Now, colleagues of yours,"
+241,"""예, 윤리 문제는 기본적으로 안전성의 문제에 불과합니다.","like George Church, for example, at Harvard,"
+242,"동물 및 실험실 테스트를 하고, 테스트 하고, 또 테스트를 한 다음에","they say, ""Yeah, ethical issues basically are just a question of safety."
+243,"충분히 안전하다고 느껴지면, 그 때야 인간에게 적용하게 되죠""","We test and test and test again, in animals and in labs,"
+244,"그러니까, 다른 학교의 생각은","and then once we feel it's safe enough, we move on to humans."""
+245,"우리가 실제적으로 이것을 활용해야 하고, 한번 해 봐야 한다는 것이죠.","So that's kind of the other school of thought,"
+246,과학계에서 이것에 대해 의견이 나뉠 가능성이 있습니까?,that we should actually use this opportunity and really go for it.
+247,"그러니까 제 말은, 어떤 사람은 이것이 주는",Is there a possible split happening in the science community about this?
+248,"윤리적인 문제 때문에 망설이고,","I mean, are we going to see some people holding back"
+249,또 어떤 사람은 국가의 부적절한 규제나,"because they have ethical concerns,"
+250,혹은 비규제로 인해 시행하게 되는 상황을 보게 될까요?,and some others just going forward
+251,"JD: 음, 제 생각에는, 특히 이런 어떠한 새로운 기술에는",because some countries under-regulate or don't regulate at all?
+252,"굉장히 다양한 입장들이 있기 마련이고,","JD: Well, I think with any new technology, especially something like this,"
+253,제 생각에 그것은 충분히 이해가 됩니다.,"there are going to be a variety of viewpoints,"
+254,"저 역시 결국에는,",and I think that's perfectly understandable.
+255,"이 기술이 인간 유전공학을 위해 쓰여질 것이라고 생각합니다만,","I think that in the end,"
+256,잠재적 문제나 위험에 대한,"this technology will be used for human genome engineering,"
+257,세심한 고려나 논의 없이 이것을 시행하는 것은,but I think to do that without careful consideration and discussion
+258,무책임하다 생각합니다.,of the risks and potential complications
+259,"BG: 박사님의 기술처럼, 과학계의 다른 분야에서도",would not be responsible.
+260,기하급수적으로 많은 기술들이 발명되고 있는데요.,BG: There are a lot of technologies and other fields of science
+261,"저는 인공지능이나, 자동로봇 등과 같은 것들이 생각나네요.","that are developing exponentially, pretty much like yours."
+262,"하지만 아무도,","I'm thinking about artificial intelligence, autonomous robots and so on."
+263,"무인 전쟁 로봇을 제외하고는,",No one seems --
+264,아무도 이같은 분야에서 일시적 중단을 촉구하는,aside from autonomous warfare robots --
+265,비슷한 논의를 시작하지 않는 것으로 보이는데,"nobody seems to have launched a similar discussion in those fields,"
+266,박사님의 논의가 다른 분야에게 본보기가 될수 있다고 생각하십니까?,in calling for a moratorium.
+267,"JD: 글쎄요, 과학자들에게는 실험실 밖으로 벗어나는 것은 어려운 일이죠.",Do you think that your discussion may serve as a blueprint for other fields?
+268,"제 의견을 말하자면,","JD: Well, I think it's hard for scientists to get out of the laboratory."
+269,그런 일들이 조금은 불편할 수는 있습니다.,"Speaking for myself,"
+270,"하지만, 이 기술의 탄생과 관련되어 있다는 사실이",it's a little bit uncomfortable to do that.
+271,저와 제 동료들로 하여금 책임감을 갖도록 했죠.,But I do think that being involved in the genesis of this
+272,이런 말씀을 드리고 싶군요.,really puts me and my colleagues in a position of responsibility.
+273,우리가 생물학 이외의 분야에서,And I would say that I certainly hope that other technologies
+274,"영향을 미치게 될 것들을 고려하고자 했던 것처럼,","will be considered in the same way,"
+275,다른 기술 분야도 같은 방식으로 고려하기를 바랍니다.,just as we would want to consider something that could have implications
+276,"제니퍼 박사님, TED 강연에 와 주셔서 감사드립니다.",in other fields besides biology.
+277,감사합니다.,"BG: Jennifer, thanks for coming to TED."
+278,(박수),JD: Thank you.
