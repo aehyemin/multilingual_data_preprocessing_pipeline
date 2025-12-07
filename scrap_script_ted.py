@@ -4,7 +4,7 @@ import time
 import re
 
 
-def get_popular_talk_url(limit=30):
+def get_popular_talk_url(limit=3):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context()
@@ -26,8 +26,6 @@ def get_popular_talk_url(limit=30):
     return urls
 
 
-
-
 def has_korean_transcript(page) -> bool:
     choose_lang = page.get_by_role("combobox")
     option = choose_lang.locator("option").all()
@@ -39,8 +37,6 @@ def has_korean_transcript(page) -> bool:
     return False
     
     
-
-
 def extract_script(page, lang_label:str): #자막 추출
     print(f"{lang_label} 자막 추출")
     
@@ -85,7 +81,7 @@ def scrap_ted_script(url):
         
         en_script = extract_script(page, "EN")
         
-        page.goto(f"{url}/transcript?language=ko")
+        
         page.get_by_role("combobox").select_option("ko")
         ko_script = extract_script(page, "KO")
         
@@ -111,14 +107,17 @@ def scrap_ted_script(url):
         return data
 
 if __name__ == "__main__":
-    url = "https://www.ted.com/talks/jennifer_doudna_how_crispr_lets_us_edit_our_dna"
-    urls = get_popular_talk_url(limit=30)
+    urls = get_popular_talk_url(limit=3)
 
+    data = []
     for u in urls:
-        print(u)
-    data_list = scrap_ted_script(url)
+        print(f"{u} 처리 중")
+        data_list = scrap_ted_script(u)   
+        if not data_list:
+            continue
+        data.append(data_list)     
 
-    if data_list:
+    if data:
         df = pd.DataFrame(data_list)
         df.to_csv("ted_parallel_blocks.csv", index=False, encoding="utf-8-sig")
         print(f" {len(df)}개")
