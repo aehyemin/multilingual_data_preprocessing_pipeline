@@ -129,7 +129,12 @@ if __name__ == "__main__":
         data_list = scrap_ted_script(u)   
         if not data_list:
             continue
-        data.extend(data_list)     
+        
+        for row in data_list:
+            row["url"] = u
+        data.extend(data_list)  
+          
+
 
     if data:
         df = pd.DataFrame(data)
