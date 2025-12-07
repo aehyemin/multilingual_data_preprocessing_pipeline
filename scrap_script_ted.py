@@ -4,13 +4,13 @@ import time
 import re
 
 
-def get_popular_talk_url(limit=3):
+def get_newest_talk_url(limit=30):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context()
         page = context.new_page()   
         
-        page.goto('https://www.ted.com/talks?sort=popular')
+        page.goto('https://www.ted.com/talks?sort=newest')
         page.wait_for_load_state("networkidle")
         card = page.locator("a[href^='/talks/']")
         cnt = card.count()
@@ -38,27 +38,41 @@ def has_korean_transcript(page) -> bool:
     
     
 def extract_script(page, lang_label:str): #자막 추출
-    print(f"{lang_label} 자막 추출")
-    
-        
     page.wait_for_selector("div.mx-auto.mb-10.w-full div[role='button']", timeout=10000)
+    container = page.locator("div.mx-auto.mb-10.w-full").first
 
-    transcript_block = page.locator("div.mx-auto.mb-10.w-full").first
-    transcript_one_block = transcript_block.locator("div[role='button']")
-    cnt = transcript_one_block.count()
-    
-    segments = []
-    
-    for i in range(cnt):
-        block = transcript_one_block.nth(i)
-        script_text = block.locator("span.text-textPrimary-onLight.font-normal.text-tui-base.leading-tui-lg.tracking-tui-tight").all_text_contents()
-        text = ' '.join(t.strip() for t in script_text if t.strip())
+    paragraph_divs = container.locator("div.w-full:has(div[role='button'])")
+    count = paragraph_divs.count()
+    print(f"{count}개")
+
+    paragraphs = []
+
+    for i in range(count):
+        para = paragraph_divs.nth(i)
+        script_text = para.locator(
+            "div[role='button'] span.text-textPrimary-onLight.font-normal.text-tui-base.leading-tui-lg.tracking-tui-tight"
+        ).all_text_contents()
+
+        text = " ".join(t.strip() for t in script_text if t.strip())
         text = re.sub(r"\s+", " ", text).strip()
-    
-        if text:
-            segments.append(text)
 
-    return segments
+        if text:
+            paragraphs.append(text)
+
+    unique_paragraphs = []
+    seen = set()
+    for t in paragraphs:
+        if t in seen:
+            continue
+        seen.add(t)
+        unique_paragraphs.append(t)
+
+    if unique_paragraphs:
+        avg_len = sum(len(t) for t in unique_paragraphs) / len(unique_paragraphs)
+        if len(unique_paragraphs[0]) > avg_len * 1.5:
+            unique_paragraphs = unique_paragraphs[1:]
+
+    return unique_paragraphs
 
 
 def scrap_ted_script(url):
@@ -107,7 +121,7 @@ def scrap_ted_script(url):
         return data
 
 if __name__ == "__main__":
-    urls = get_popular_talk_url(limit=3)
+    urls = get_newest_talk_url(limit=30)
 
     data = []
     for u in urls:
@@ -115,10 +129,10 @@ if __name__ == "__main__":
         data_list = scrap_ted_script(u)   
         if not data_list:
             continue
-        data.append(data_list)     
+        data.extend(data_list)     
 
     if data:
-        df = pd.DataFrame(data_list)
+        df = pd.DataFrame(data)
         df.to_csv("ted_parallel_blocks.csv", index=False, encoding="utf-8-sig")
         print(f" {len(df)}개")
         print(df.head())
