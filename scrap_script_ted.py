@@ -4,14 +4,15 @@ import time
 import re
 
 
-def get_newest_talk_url(limit=30):
+def get_newest_talk_url(limit=5):
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         context = browser.new_context()
         page = context.new_page()   
         
-        page.goto('https://www.ted.com/talks?sort=newest')
+        page.goto('https://www.ted.com/talks?sort=newest&language=korean')
         page.wait_for_load_state("networkidle")
+        
         card = page.locator("a[href^='/talks/']")
         cnt = card.count()
         urls = []
@@ -58,22 +59,11 @@ def extract_script(page, lang_label:str): #자막 추출
 
         if text:
             paragraphs.append(text)
+            
+    print(f"{lang_label}:{len(paragraphs)}줄")
+    return paragraphs
 
-    unique_paragraphs = []
-    seen = set()
-    for t in paragraphs:
-        if t in seen:
-            continue
-        seen.add(t)
-        unique_paragraphs.append(t)
-
-    if unique_paragraphs:
-        avg_len = sum(len(t) for t in unique_paragraphs) / len(unique_paragraphs)
-        if len(unique_paragraphs[0]) > avg_len * 1.5:
-            unique_paragraphs = unique_paragraphs[1:]
-
-    return unique_paragraphs
-
+   
 
 def scrap_ted_script(url):
     with sync_playwright() as p:
@@ -121,7 +111,7 @@ def scrap_ted_script(url):
         return data
 
 if __name__ == "__main__":
-    urls = get_newest_talk_url(limit=30)
+    urls = get_newest_talk_url(limit=5)
 
     data = []
     for u in urls:
